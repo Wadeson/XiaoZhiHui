@@ -12,11 +12,11 @@ dzh:
 spring:
   data:
     mongodb:
-      host: 192.168.99.254
+      host: 127.0.0.1
       port: 27017
-      username: dzh
-      password: qwert
+#      username: dzh
+#      password: qwert
       database: dzh
   redis:
-    host: 192.168.99.254
+    host: 127.0.0.1
     port: 6379
